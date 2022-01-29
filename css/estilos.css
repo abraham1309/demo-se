@@ -169,13 +169,14 @@ h2 {
 
 @media (max-width: 500px) {
     .div-general {
-        height: 95vh;
+        height: auto;
+        margin-top: 10vh;
     }
     .div-fondo {
         height: 95vh;
     }
     .div-general .div-registro {
-        height: auto;
+        height: 580px;
     }
     .div-general .div-registro .formulario {
         height: auto;

@@ -1,12 +1,10 @@
 #slides {
     position: absolute;
-    height: 100vh;
 }
 
 #slides .slides-container {
     display: none;
     z-index: -4;
-    height: 100vh;
 }
 
 #slides .slides-container .container {
