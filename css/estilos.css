@@ -24,7 +24,7 @@ body {
 .div-fondo {
     position: absolute;
     z-index: -2;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(236, 98, 98, 0.205);
     height: 100vh;
     width: 100vw;
 }
