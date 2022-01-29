@@ -13,7 +13,8 @@ body {
 .div-general {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    margin-top: 1.5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,19 +24,18 @@ body {
 
 .div-fondo {
     position: absolute;
-    z-index: -2;
-    background-color: rgba(236, 98, 98, 0.205);
+    background-color: rgba(0, 0, 0, 0.4);
     height: 100vh;
     width: 100vw;
 }
 
 .div-general .div-registro {
     width: 650px;
-    height: 100vh;
+    height: auto;
 }
 
 .div-general .div-registro .formulario {
-    height: 100%;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -52,8 +52,8 @@ body {
 }
 
 .div-general .div-registro .formulario .div-logo img {
-    width: 100%;
-    margin-bottom: 14%;
+    width: 85%;
+    margin-bottom: 20%;
 }
 
 .div-general .div-registro .formulario .div-campos {
@@ -63,7 +63,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid rgba(255, 255, 255, 0.63);
+    border: 1px solid rgba(68, 170, 99, 0.63);
 }
 
 .div-general .div-registro .formulario .div-campos .div-input {
@@ -169,17 +169,7 @@ h2 {
 
 @media (max-width: 500px) {
     .div-general {
-        height: auto;
-        margin-top: 10vh;
-    }
-    .div-fondo {
-        height: 95vh;
-    }
-    .div-general .div-registro {
-        height: 580px;
-    }
-    .div-general .div-registro .formulario {
-        height: auto;
+        margin-top: 5%;
     }
     .div-general .div-registro .formulario .div-redes-sociales {
         margin-top: 5%;
