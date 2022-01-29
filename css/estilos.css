@@ -168,6 +168,18 @@ h2 {
 }
 
 @media (max-width: 500px) {
+    .div-general {
+        height: 95vh;
+    }
+    .div-fondo {
+        height: 95vh;
+    }
+    .div-general .div-registro {
+        height: auto;
+    }
+    .div-general .div-registro .formulario {
+        height: auto;
+    }
     .div-general .div-registro .formulario .div-redes-sociales {
         margin-top: 5%;
     }
